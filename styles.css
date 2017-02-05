@@ -1,0 +1,19 @@
+img {
+  width: 50%;
+  height: 600px;
+}
+#nancy1 {
+  width: 0px;
+}
+
+h3 {
+  float:right;
+}
+
+input {
+  size: 50;
+}
+
+#textboxForm {
+  display: none;
+}
