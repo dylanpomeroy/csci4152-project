@@ -5,13 +5,15 @@ function init(){
 }
 
 function textEntered(){
-  var input = document.getElementById('textbox').value;
+  var input = document.getElementById('textInput').value;
 
   if (input.toUpperCase() == "DYLAN")
     haveNancySay('Wow, what a cool name, '+input+', can I have your autograph?', 35);
   else {
     haveNancySay('Oh, hi '+input+'... that\'s a strange name.', 35);
   }
+
+  return false;
 }
 
 function haveNancySay(text, speed){
@@ -29,7 +31,7 @@ function haveNancySay(text, speed){
     // slow down animation relative to speed
     if (typingIndex % 2 == 0){
       document.getElementById('nancy'+(++index % 2)).style.width = '0%';
-      document.getElementById('nancy'+((index+1) % 2)).style.width = '50%';
+      document.getElementById('nancy'+((index+1) % 2)).style.width = '95%';
     }
 
     // exit this interval function when the dialog is finished

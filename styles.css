@@ -1,6 +1,6 @@
 img {
-  width: 50%;
-  height: 600px;
+  width: 100%;
+  height: 400px;
 }
 #nancy1 {
   width: 0px;
@@ -16,4 +16,23 @@ input {
 
 #textboxForm {
   display: none;
+}
+
+#nancyDialog {
+  word-wrap:break-word;
+}
+
+#right {
+  border: 1px solid black;
+  height: 500px;
+  position: fixed;
+  right:0;
+  width: 45%;
+}
+
+#left {
+  width: 50%;
+  float: left;
+  height: 500px;
+  border: 1px solid red;
 }
